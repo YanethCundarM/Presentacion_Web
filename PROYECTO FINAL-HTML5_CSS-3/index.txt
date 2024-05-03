@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Portfolio </title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet"/>
+        
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contenido.css">
+    <link rel="stylesheet" href="footer.css">
+   
+    
+ </head>
+<body>
+    <div class="card">
+        <div class="nav">
+            <div class="icons" >
+                <img class="img" src="./asset/facebook (1).svg" alt="">
+                <img class="img"src="./asset/instagram.svg" alt="">
+                <img class="img"src="./asset/twitter.svg" alt="">
+                <img class="img"src="./asset/linkedin.svg" alt="">
+            </div>
+            <div class="menu_two">
+                <nav class="card_menu">
+                    <ul class="menu">
+                        <li><a class="menu_a" href="#">Works</a></li>
+                        <li><a class="menu_a" href="#">Blog</a></li>
+                        <li><a class="menu_a" href="#">Contact</a></li>
+                    </ul>
+                </nav> 
+                <div class="menu_imagen">
+                    <div class="icon_img"><img src="./asset/menu.png" alt=""></div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="header">
+            <div class="card_header">
+
+                <div class="header_one">
+                    <div class="card_title">
+                        <div class="title">Hi, I am <b>Onur GULER</b>,</div><br>
+                        <div class="title">Web Designer</div><br>
+                        <div class="parrafo"><p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br>
+                        sint. Velit officia consequat duis enim velit mollit. Exercitation veniam <br>
+                        consequat sunt nostrud amet.</p> </div>
+                        <div><button class="btn">Download Resume</button></div>
+                    </div>
+                    <div class="imagen_photo">
+                        <img class="img_picture" src="/asset/picture.png" alt="">
+                     </div>
+                </div>
+                <div class="header_two">
+                    <div class="card_title_two">
+                        <div class="title_two_a">Hi, I am <br><b>Onur GULER,</b><br></div><br>
+                        <div class="title_two">Web Designer</div><br>
+                        <div class="parrafo_two_p"><p>Amet minim mollit non deserunt ullamco est 
+                        sint. Velit officia consequat duis enim velit mollit. Exercitation 
+                        consequat sunt nostrud amet.</p> </div>
+                        <div><button class="btn_two">Download Resume</button></div>
+                    </div>
+                    <div class="imagen_photo_two">
+                        <img class="img_picture_two" src="/asset/picture.png" alt="">
+                     </div>
+                </div>
+             </div>
+        </div>                                                                                                                                                                                                                                                       
+        <div class="sidbar_one"></div>
+
+        <div class="contenido">
+            <div class="card_all">
+                <div class="card_one">
+                    <div class="box_titulo">
+                        <div>My Skills</div>
+                    </div>
+                    <div class="box_b"><!-- AQUI VAN LAS DOS COLUMNAS A Y B -->
+                        <div class="colum_a">
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/figma.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons figma">Figma</div>
+                                </div>  
+                            </div>
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/bootstrap.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons bootstrap">Bootstrap</div>
+                                </div>  
+                            </div>
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/html.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons html">HTML 5</div>  
+                                </div>
+                            </div>
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/github.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons github">GitHub</div>  
+                                </div>
+                            </div>
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/slack.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons slack">Slack</div>  
+                                </div>
+                            </div>
+                        </div><!-- AQUI TERMINA COLUMNA A -->
+                        <div class="colum_a colum_b"><!-- AQUI TERMINA COLUMNA B -->
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/css.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons css">CSS</div>
+                                </div>  
+                            </div>
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/javascript.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons javascript">JavaScript</div>
+                                </div>  
+                            </div>
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/saas.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons saas">Saas</div>
+                                </div>  
+                            </div>
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/vue.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons vuejs">Vuejs</div>
+                                </div>  
+                            </div>
+                            <div class="redes">
+                                <div class="redes_I">
+                                    <div><img class="abc" src="./asset/git.png" alt=""></div>
+                                </div>
+                                <div class="name">
+                                    <div class="box_icons git">git</div>
+                                </div>  
+                            </div>  
+                        </div><!-- AQUI TERMINA COLUMNA B -->
+                    </div><!-- AQUI TERMINA COLUMNA A Y B --> 
+                </div><!-- AQUI TERMINA CARD_ONE -->
+                <div class="card_two">  
+                    <div class="card_exp_all"><!-- AQUI INICIA TITULO Y VA CON LOS ICONOS Y LAS LETRAS 2 CAJAS TITULO ICONOS-->
+                        <div class="box_titulo_two"> 
+                            <div><u>Experien</u>ces</div>
+                        </div>
+                        <div class="exp_icon">
+                            <img class="logo_microsoft" src="./asset/microsoft.png" alt="">
+                            <div class="box_microsoft">
+                                <div class="letras_m">Microsoft</div>
+                                <div class="exp_date"> (05.2013-07.2015)</div>
+                            </div>  
+                        </div>
+                        <div class="exp_icon_dos">
+                            <div class="exp_date_logo">
+                                <img class="logo_microsoft_dos" src="./asset/microsoft.png" alt="">
+                                <div class="exp_date_dos"> (05.2013-07.2015)</div>
+                            </div>
+                            <div class="box_microsoft_dos">
+                                <div class="letras_m_dos">Microsoft</div>
+                            </div>
+                        </div>
+                        <div class="exp_icon">
+                            <img class="logo_microsoft" src="./asset/figma.png" alt="">
+                            <div class="box_microsoft">
+                                <div class="letras_m">Microsoft</div>
+                                <div class="exp_date"> (05.2013-07.2015)</div>
+                            </div>  
+                        </div>
+                        <div class="exp_icon_dos">
+                            <div class="exp_date_logo">
+                                <img class="logo_microsoft_dos" src="./asset/figma.png" alt="">
+                                <div class="exp_date_dos"> (05.2013-07.2015)</div>
+                            </div>
+                            <div class="box_microsoft_dos">
+                                <div class="letras_m_dos">Microsoft</div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="exp_box_list">
+                            <div class="exp_list">
+                                <ul class="exp">
+                                    <li> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint </li>
+                                    <li> elit officia consequat duis enim velit mollit.</li>
+                                    <li>Exercitation veniam consequat sunt nostrud amet.</li>
+                                </ul><br><br>
+                            </div>
+                            <div class="exp_list">
+                                <ul class="exp">
+                                    <li> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint </li>
+                                    <li> elit officia consequat duis enim velit mollit.</li>
+                                    <li>Exercitation veniam consequat sunt nostrud amet.</li>
+                                    <li> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint </li>
+                                </ul>
+                            </div>
+
+                        </div>                                                                                                                                                                            
+                    </div>                   
+                </div><!-- AQUI TERMINA CARD_TWO -->
+            </div> <!-- AQUI TERMINA CARD_FULL -->
+        </dir><!-- AQUI TERMINA CONTENIDO -->
+
+  
+        <div class="sidbar_two"></div>
+        <div class="footer">
+            <div class="footer_icons" >
+                <img class="img_f" src="./asset/facebook (1).svg" alt="">
+                <img class="img_f"src="./asset/instagram.svg" alt="">
+                <img class="img_f"src="./asset/twitter.svg" alt="">
+                <img class="img_f"src="./asset/linkedin.svg" alt="">
+            </dir>
+        </div>
+            <div class="footer_text">
+                Copyright ©2020 All rights reserved
+            </div>
+        </div>        
+    </div>
+</body>
+</html>

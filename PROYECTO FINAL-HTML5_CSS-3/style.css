@@ -1,0 +1,145 @@
+
+.card{
+    display: grid;
+    grid-template-columns: 0.1fr 0.8fr 0.1fr;
+    grid-template-rows:  50px auto 80px  auto 80px 200px;
+    grid-template-areas: 
+    "nav         nav        nav"
+    "header      header     header"
+    ".           contenido   ."
+    "sidbar_one  contenido  sidbar_two"
+    ".           contenido   ."
+    "footer        footer   footer" ;
+  /*  margin: 0px 50px 0px;*/
+  /*padding: 0px 90px 0px 90px;*/
+  
+  
+  
+  
+}
+
+.nav{
+    grid-area: nav;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+
+  }
+.icons{
+  /*  background-color: aqua;*/
+    display: flex;
+    
+}
+.img{
+    padding: 0px 10px 0px ;
+    }
+.menu_two{
+    display: flex;
+  /*  background-color:burlywood;*/
+
+}
+.card_menu{
+    
+    list-style-type: none;
+    
+    }
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    
+}
+.menu_a{
+    text-decoration: none;  
+    font-family: heebo;
+    font-size: 27px;
+    font-style: normal;
+    line-height: normal;
+    padding:0px 10px 0px 0px;
+    color: black;
+  
+
+}
+
+
+.menu_imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 12px 10px 12px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+.contenido{
+    grid-area: contenido;
+
+    background-color: chartreuse;
+}
+
+.sidbar_one{
+    grid-area: sidbar_one;
+    background-color: #A3CEDB;
+ }
+
+.sidbar_two{
+    grid-area: sidbar_two;
+    background-color: #A3CEDB;
+
+ }
+ .footer{
+    grid-area: footer;
+    background-color:rgb(85, 91, 200);
+ }
+
+ @media(max-width: 1200px){
+   
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 00px 0px 0%;
+    
+ }
+ .icons{
+    display: none;
+ }
+ .img{
+    padding-right:0px ;
+ }
+ .icon_menu{
+    display: block;
+ }
+ .card_menu{
+    display: none;
+    
+ }
+ .menu_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+ }
+
+ .menu_imagen{
+    display: block;
+       
+}
+.card_text{
+    
+    background-color:aqua;
+    
+}
+
+
+}
+
+
+
